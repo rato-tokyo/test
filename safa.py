@@ -1,13 +1,4 @@
-"""HDMI物理リンク・プリフライト送信側（この1ファイルだけを共有する）。
 
-初回:  python -m pip install numpy opencv-python
-実行:  python hdmi_preflight_send.py --display 1 --fps 8
-停止:  Esc
-
-1920x1080の外付け画面全体へ、5秒の校正画面の後、連番付き既知PRBSを
-2x2画素/bitで表示する。--display はWindowsの表示番号とは限らないため、
-起動時に出る monitors と校正画面を見て選ぶ。このファイル以外は不要。
-"""
 from __future__ import annotations
 
 import argparse
