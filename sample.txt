@@ -1,0 +1,2 @@
+This is a sample text file for testing temporary sharing via GitHub.
+Created on 2026-09-20.
