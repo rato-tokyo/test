@@ -1,0 +1,9 @@
+powershell.exe -ExecutionPolicy Bypass `
+  -File "C:\作業\フォルダ権限事前調査.ps1" `
+  -RootPath "\\サーバー名\共有名\調査対象フォルダ" `
+  -OutputDirectory "C:\作業\FolderAccessSurvey"
+
+powershell.exe -ExecutionPolicy Bypass `
+  -File "$env:USERPROFILE\Desktop\フォルダ権限事前調査.ps1" `
+  -RootPath "\\Swd19023\SW03_BSW_ドキュメント管理\N_その他\201.予算システム" `
+  -OutputDirectory "$env:USERPROFILE\Desktop\FolderAccessSurvey"
